@@ -7,7 +7,7 @@ Web application for retrieving values from the labseq sequence.
 Clone the repository:
 
 ```console
-$ git clone git@github.com:leonardoflorido/LabSeq.git
+$ git clone git@github.com:leonardoflorido/labseq-sequence.git
 ```
 
 ## How To Run (Docker)
