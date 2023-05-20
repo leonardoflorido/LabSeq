@@ -21,6 +21,7 @@ $ docker-compose up
 Note:
 
 - If [Docker](https://www.docker.com/) is not installed, please install it or follow the steps below.
+- This process may take a significant amount of time.
 
 ## Prerequisites
 
