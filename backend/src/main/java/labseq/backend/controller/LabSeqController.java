@@ -18,13 +18,13 @@ public class LabSeqController {
     }
 
     @GetMapping("/{n}")
-    public int getSequence(@PathVariable int n) {
+    public int getValue(@PathVariable int n) {
         // Verify that n is a positive integer
         if (n < 0) {
             throw new IllegalArgumentException("n must be a positive integer");
         }
 
         // Get the sequence
-        return this.labSeqService.getSequence(n);
+        return this.labSeqService.getValue(n);
     }
 }

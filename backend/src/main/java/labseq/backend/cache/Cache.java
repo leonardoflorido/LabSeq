@@ -1,19 +1,23 @@
 package labseq.backend.cache;
 
-import java.util.LinkedList;
+import java.util.HashMap;
 
 public class Cache {
-    private final LinkedList<Integer> cache;
+    private final HashMap<Integer, Integer> cache;
 
     public Cache() {
-        this.cache = new LinkedList<>();
+        this.cache = new HashMap<>();
     }
 
-    public void add(int n) {
-        this.cache.add(n);
+    public boolean containsKey(Integer key) {
+        return this.cache.containsKey(key);
     }
 
-    public int get(int n) {
-        return this.cache.get(n);
+    public Integer get(Integer key) {
+        return this.cache.get(key);
+    }
+
+    public void put(Integer key, Integer value) {
+        this.cache.put(key, value);
     }
 }
