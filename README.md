@@ -1,4 +1,4 @@
-# LabSeq
+# Labseq Sequence
 
 Web application for retrieving values from the labseq sequence.
 
