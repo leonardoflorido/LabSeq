@@ -4,10 +4,10 @@ import labseq.backend.cache.Cache;
 import org.springframework.stereotype.Service;
 
 @Service
-public class LabSeqService {
+public class LabseqService {
     private final Cache cache;
 
-    public LabSeqService() {
+    public LabseqService() {
         this.cache = new Cache();
     }
 

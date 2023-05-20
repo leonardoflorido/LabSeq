@@ -1,6 +1,6 @@
 package labseq.backend.controller;
 
-import labseq.backend.service.LabSeqService;
+import labseq.backend.service.LabseqService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/labseq")
-public class LabSeqController {
-    private final LabSeqService labSeqService;
+public class LabseqController {
+    private final LabseqService labSeqService;
 
     @Autowired
-    public LabSeqController(LabSeqService labSeqService) {
+    public LabseqController(LabseqService labSeqService) {
         this.labSeqService = labSeqService;
     }
 
