@@ -1,6 +1,6 @@
 # LabSeq
 
-Web application for retrieving values from the LabSeq.
+Web application for retrieving values from the labseq sequence.
 
 ## Installation
 
