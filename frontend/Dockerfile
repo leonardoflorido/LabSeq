@@ -1,6 +1,9 @@
 FROM node:latest
+RUN mkdir /frontend
 WORKDIR /frontend
+RUN npm install -g @angular/cli@latest
+COPY package.json package-lock.json ./
+RUN npm ci
 COPY . .
 EXPOSE 4200
-RUN npm install
-CMD ["npm", "start"]
+CMD ["ng", "serve", "--host", "0.0.0.0"]
