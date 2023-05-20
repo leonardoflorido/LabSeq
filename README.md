@@ -64,3 +64,6 @@ $ npm start
 Note:
 
 - To view the API documentation, the backend must be running.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
