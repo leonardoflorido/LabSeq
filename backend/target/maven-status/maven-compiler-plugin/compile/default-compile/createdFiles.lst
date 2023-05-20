@@ -1,5 +1,0 @@
-labseq\backend\cache\Cache.class
-labseq\backend\BackendApplication.class
-labseq\backend\service\LabseqService.class
-labseq\backend\controller\LabseqController.class
-labseq\backend\security\WebSecurityConfiguration.class
