@@ -37,7 +37,7 @@ Install requirements:
 - Inside the `frontend` folder, run:
 
  ```console
- $ npm install --force
+ $ npm install
  ```
 
 ## How To Run
